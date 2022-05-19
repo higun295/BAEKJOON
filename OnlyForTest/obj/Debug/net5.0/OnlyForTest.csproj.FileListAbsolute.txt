@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\OnlyForTest\bin\Debug\net5.0\OnlyForTest.exe
+E:\Projects\BAEKJOON\OnlyForTest\bin\Debug\net5.0\OnlyForTest.deps.json
+E:\Projects\BAEKJOON\OnlyForTest\bin\Debug\net5.0\OnlyForTest.runtimeconfig.json
+E:\Projects\BAEKJOON\OnlyForTest\bin\Debug\net5.0\OnlyForTest.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\OnlyForTest\bin\Debug\net5.0\OnlyForTest.dll
+E:\Projects\BAEKJOON\OnlyForTest\bin\Debug\net5.0\ref\OnlyForTest.dll
+E:\Projects\BAEKJOON\OnlyForTest\bin\Debug\net5.0\OnlyForTest.pdb
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.AssemblyInfo.cs
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.dll
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\ref\OnlyForTest.dll
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.pdb
+E:\Projects\BAEKJOON\OnlyForTest\obj\Debug\net5.0\OnlyForTest.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GreedyEx_02/1.0.0": {
+        "runtime": {
+          "GreedyEx_02.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GreedyEx_02/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

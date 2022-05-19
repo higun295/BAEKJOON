@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\GreedyEx_01\bin\Debug\net5.0\GreedyEx_01.exe
+E:\Projects\BAEKJOON\GreedyEx_01\bin\Debug\net5.0\GreedyEx_01.deps.json
+E:\Projects\BAEKJOON\GreedyEx_01\bin\Debug\net5.0\GreedyEx_01.runtimeconfig.json
+E:\Projects\BAEKJOON\GreedyEx_01\bin\Debug\net5.0\GreedyEx_01.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\GreedyEx_01\bin\Debug\net5.0\GreedyEx_01.dll
+E:\Projects\BAEKJOON\GreedyEx_01\bin\Debug\net5.0\ref\GreedyEx_01.dll
+E:\Projects\BAEKJOON\GreedyEx_01\bin\Debug\net5.0\GreedyEx_01.pdb
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.AssemblyInfo.cs
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.dll
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\ref\GreedyEx_01.dll
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.pdb
+E:\Projects\BAEKJOON\GreedyEx_01\obj\Debug\net5.0\GreedyEx_01.genruntimeconfig.cache

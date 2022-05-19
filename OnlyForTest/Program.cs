@@ -6,7 +6,11 @@ namespace OnlyForTest
     {
         static void Main (string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 48; i < 58; i++)
+            {
+                char a = (char)i;
+                Console.WriteLine(a);
+            }
         }
     }
 }
