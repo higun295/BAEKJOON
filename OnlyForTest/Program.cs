@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Diagnostics;
+using System.Text;
 
 namespace OnlyForTest
 {
@@ -16,8 +17,38 @@ namespace OnlyForTest
             //Console.WriteLine($"상수 {readValue}에 대한 팩토리얼 값 : {RecursiveFactorial(readValue)}");
 
             // 유클리드 호제법
-            int gcd = GreatestCommonDivisor(192, 162);
-            Console.WriteLine(gcd);
+            //int gcd = GreatestCommonDivisor(192, 162);
+            //Console.WriteLine(gcd);
+
+            Stopwatch sw = new Stopwatch();
+            string input = Console.ReadLine();
+
+            sw.Start();
+
+            for (int i = 0; i < 10000; i++)
+            {
+                Console.WriteLine($"{i} : {input}");
+            }
+
+            sw.Stop();
+            long stringTime = sw.ElapsedMilliseconds;
+            Console.WriteLine($"{stringTime}ms");
+            sw.Reset();
+
+            sw.Start();
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < 10000; i++)
+            {
+                sb.AppendLine($"{i} : {input}");
+            }
+            Console.Write(sb.ToString());
+
+            sw.Stop();
+            long stringBuilderTime = sw.ElapsedMilliseconds;
+            Console.WriteLine($"{stringBuilderTime}ms");
+            sw.Reset();
+
+            Console.WriteLine($"StringBuilder가 String보다 약 {stringTime / stringBuilderTime}배 정도 빠릅니다.");
         }
 
         static int GreatestCommonDivisor (int a, int b)
