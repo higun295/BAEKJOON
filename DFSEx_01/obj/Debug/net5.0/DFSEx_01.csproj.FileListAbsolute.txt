@@ -1,0 +1,15 @@
+E:\Projects\BAEKJOON\DFSEx_01\bin\Debug\net5.0\DFSEx_01.exe
+E:\Projects\BAEKJOON\DFSEx_01\bin\Debug\net5.0\DFSEx_01.deps.json
+E:\Projects\BAEKJOON\DFSEx_01\bin\Debug\net5.0\DFSEx_01.runtimeconfig.json
+E:\Projects\BAEKJOON\DFSEx_01\bin\Debug\net5.0\DFSEx_01.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\DFSEx_01\bin\Debug\net5.0\DFSEx_01.dll
+E:\Projects\BAEKJOON\DFSEx_01\bin\Debug\net5.0\ref\DFSEx_01.dll
+E:\Projects\BAEKJOON\DFSEx_01\bin\Debug\net5.0\DFSEx_01.pdb
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\DFSEx_01.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\DFSEx_01.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\DFSEx_01.AssemblyInfo.cs
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\DFSEx_01.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\DFSEx_01.dll
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\ref\DFSEx_01.dll
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\DFSEx_01.pdb
+E:\Projects\BAEKJOON\DFSEx_01\obj\Debug\net5.0\DFSEx_01.genruntimeconfig.cache
