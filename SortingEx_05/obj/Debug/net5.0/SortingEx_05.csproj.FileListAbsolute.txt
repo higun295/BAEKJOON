@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\SortingEx_05\bin\Debug\net5.0\SortingEx_05.exe
+E:\Projects\BAEKJOON\SortingEx_05\bin\Debug\net5.0\SortingEx_05.deps.json
+E:\Projects\BAEKJOON\SortingEx_05\bin\Debug\net5.0\SortingEx_05.runtimeconfig.json
+E:\Projects\BAEKJOON\SortingEx_05\bin\Debug\net5.0\SortingEx_05.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\SortingEx_05\bin\Debug\net5.0\SortingEx_05.dll
+E:\Projects\BAEKJOON\SortingEx_05\bin\Debug\net5.0\ref\SortingEx_05.dll
+E:\Projects\BAEKJOON\SortingEx_05\bin\Debug\net5.0\SortingEx_05.pdb
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.AssemblyInfo.cs
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.dll
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\ref\SortingEx_05.dll
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.pdb
+E:\Projects\BAEKJOON\SortingEx_05\obj\Debug\net5.0\SortingEx_05.genruntimeconfig.cache

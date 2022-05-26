@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\BinarySearchEx_01\bin\Debug\net5.0\BinarySearchEx_01.exe
+E:\Projects\BAEKJOON\BinarySearchEx_01\bin\Debug\net5.0\BinarySearchEx_01.deps.json
+E:\Projects\BAEKJOON\BinarySearchEx_01\bin\Debug\net5.0\BinarySearchEx_01.runtimeconfig.json
+E:\Projects\BAEKJOON\BinarySearchEx_01\bin\Debug\net5.0\BinarySearchEx_01.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\BinarySearchEx_01\bin\Debug\net5.0\BinarySearchEx_01.dll
+E:\Projects\BAEKJOON\BinarySearchEx_01\bin\Debug\net5.0\ref\BinarySearchEx_01.dll
+E:\Projects\BAEKJOON\BinarySearchEx_01\bin\Debug\net5.0\BinarySearchEx_01.pdb
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.AssemblyInfo.cs
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.dll
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\ref\BinarySearchEx_01.dll
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.pdb
+E:\Projects\BAEKJOON\BinarySearchEx_01\obj\Debug\net5.0\BinarySearchEx_01.genruntimeconfig.cache
