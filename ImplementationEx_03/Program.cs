@@ -4,79 +4,32 @@ namespace ImplementationEx_03
 {
     class Program
     {
+        // <문제> 왕실의 나이트
+        // 그리디 & 구현 47:01
         static void Main (string[] args)
         {
-            char[] charArray = Console.ReadLine().ToCharArray();
+            char[] input = Console.ReadLine().ToCharArray();
 
-            int row = charArray[1] - '0';
-            int column = charArray[0] - 'a' + 1;
+            int currentY = Convert.ToInt32(input[0] - 'a' + 1); // 위치를 나타내는 열
+            int currentX = Convert.ToInt32(input[1] - '0'); // 위치를 나타내는 행
+            int[] dy = { 2, 2, -2, -2, 1, -1, 1, -1 }; // 열방향 8가지 이동
+            int[] dx = { 1, -1, 1, -1, 2, 2, -2, -2 }; // 행방향 8가지 이동
 
-            int[] dx = { -2, -1, 1, 2, 2, 1, -1, -2 };
-            int[] dy = { -1, -2, -2, -1, 1, 2, 2, 1 };
-
-            int result = 0;
-
+            int result = 0; // 나이트가 이동할 수 있는 경우의 수
             for (int i = 0; i < 8; i++)
             {
-                int nextRow = row + dx[i];
-                int nextColumn = column + dy[i];
+                int nx = currentX + dx[i];
+                int ny = currentY + dy[i];
 
-                if (nextRow >= 1 && nextRow <= 8 && nextColumn >= 1 && nextColumn <= 8)
-                    result ++;
+                // if (nx >= 1 && nx <= 8 && ny >= 1 && ny <= 8)
+                // 이렇게도 사용 가능
+                if (nx < 1 || nx > 8 || ny < 1 || ny > 8) 
+                    continue;
+
+                result++;
             }
 
             Console.WriteLine(result);
-
-            //char[] charArray = Console.ReadLine().ToCharArray();
-            //int result = 0;
-
-            //for (int i = 1; i <= 8; i++)
-            //{
-            //    for (int j = 1; j <= 8; j++)
-            //    {
-            //        int column = ConvertToInt(charArray[0]);
-            //        int row = charArray[1] - '0';
-
-            //        if (column + 2 == i || column -2 == i)
-            //        {
-            //            if (row + 1 == j || row - 1 == j)
-            //                result++;
-            //        }
-
-            //        if (row + 2 == i || row - 2 == i)
-            //        {
-            //            if (column + 1 == j || column - 1 == j)
-            //                result++;
-            //        }
-            //    }
-            //}
-
-            //Console.WriteLine(result);
         }
-
-        //static int ConvertToInt (char column)
-        //{
-        //    switch (column)
-        //    {
-        //        case 'a':
-        //            return 1;
-        //        case 'b':
-        //            return 2;
-        //        case 'c':
-        //            return 3;
-        //        case 'd':
-        //            return 4;
-        //        case 'e':
-        //            return 5;
-        //        case 'f':
-        //            return 6;
-        //        case 'g':
-        //            return 7;
-        //        case 'h':
-        //            return 8;
-        //        default:
-        //            return 0;
-        //    }
-        //}
     }
 }

@@ -67,21 +67,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchEx_02", "Binary
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchEx_03", "BinarySearchEx_03\BinarySearchEx_03.csproj", "{C6E20774-25E8-42BC-B4FE-080C46D40341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_01", "DynamicProgrammingEx_01\DynamicProgrammingEx_01.csproj", "{49000AD9-102A-43E2-B1CC-D80A914581EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_01", "DynamicProgrammingEx_01\DynamicProgrammingEx_01.csproj", "{49000AD9-102A-43E2-B1CC-D80A914581EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_02", "DynamicProgrammingEx_02\DynamicProgrammingEx_02.csproj", "{E1C5D59B-069D-412A-869B-31AEED6389AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_02", "DynamicProgrammingEx_02\DynamicProgrammingEx_02.csproj", "{E1C5D59B-069D-412A-869B-31AEED6389AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_03", "DynamicProgrammingEx_03\DynamicProgrammingEx_03.csproj", "{82C28669-18EE-419B-A754-ED9E977D8E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_03", "DynamicProgrammingEx_03\DynamicProgrammingEx_03.csproj", "{82C28669-18EE-419B-A754-ED9E977D8E3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_04", "DynamicProgrammingEx_04\DynamicProgrammingEx_04.csproj", "{D227FD8E-B288-4EBC-A0B9-27F0C168A92E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_04", "DynamicProgrammingEx_04\DynamicProgrammingEx_04.csproj", "{D227FD8E-B288-4EBC-A0B9-27F0C168A92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_05", "DynamicProgrammingEx_05\DynamicProgrammingEx_05.csproj", "{AB04FFBD-DE34-461C-863C-60AF059A57D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_05", "DynamicProgrammingEx_05\DynamicProgrammingEx_05.csproj", "{AB04FFBD-DE34-461C-863C-60AF059A57D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_06", "DynamicProgrammingEx_06\DynamicProgrammingEx_06.csproj", "{CD9BD214-891F-4FBF-9147-3334E882AB3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_06", "DynamicProgrammingEx_06\DynamicProgrammingEx_06.csproj", "{CD9BD214-891F-4FBF-9147-3334E882AB3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_07", "DynamicProgrammingEx_07\DynamicProgrammingEx_07.csproj", "{916152CB-FC51-4902-A8D4-536C1756321C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_07", "DynamicProgrammingEx_07\DynamicProgrammingEx_07.csproj", "{916152CB-FC51-4902-A8D4-536C1756321C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingEx_08", "DynamicProgrammingEx_08\DynamicProgrammingEx_08.csproj", "{C21729F8-7EC1-4498-ABA8-7D64CF527AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgrammingEx_08", "DynamicProgrammingEx_08\DynamicProgrammingEx_08.csproj", "{C21729F8-7EC1-4498-ABA8-7D64CF527AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedyEx_00", "GreedyEx_00\GreedyEx_00.csproj", "{4C3420DA-52EC-416B-9276-EA49237158B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{C21729F8-7EC1-4498-ABA8-7D64CF527AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21729F8-7EC1-4498-ABA8-7D64CF527AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21729F8-7EC1-4498-ABA8-7D64CF527AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3420DA-52EC-416B-9276-EA49237158B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3420DA-52EC-416B-9276-EA49237158B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3420DA-52EC-416B-9276-EA49237158B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3420DA-52EC-416B-9276-EA49237158B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
