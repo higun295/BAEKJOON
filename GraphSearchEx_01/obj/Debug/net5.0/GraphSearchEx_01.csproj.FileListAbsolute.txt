@@ -13,3 +13,4 @@ E:\Projects\BAEKJOON\GraphSearchEx_01\obj\Debug\net5.0\GraphSearchEx_01.dll
 E:\Projects\BAEKJOON\GraphSearchEx_01\obj\Debug\net5.0\ref\GraphSearchEx_01.dll
 E:\Projects\BAEKJOON\GraphSearchEx_01\obj\Debug\net5.0\GraphSearchEx_01.pdb
 E:\Projects\BAEKJOON\GraphSearchEx_01\obj\Debug\net5.0\GraphSearchEx_01.genruntimeconfig.cache
+E:\Projects\BAEKJOON\GraphSearchEx_01\obj\Debug\net5.0\GraphSearchEx_01.csproj.AssemblyReference.cache

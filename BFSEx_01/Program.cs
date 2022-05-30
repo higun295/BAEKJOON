@@ -5,7 +5,9 @@ namespace BFSEx_01
 {
     class Program
     {
-        public static bool[] visited = new bool[9];
+        // BFS 소스코드 예제
+        // DFS & BFS 39:33
+        public static bool[] visited = new bool[9]; // 8개로 해도 되는데 헷갈리지 않으려고 문제에서 나온 index와 맞추려 한다.
         public static List<List<int>> graph = new List<List<int>>();
 
         public static void BFS (int start)

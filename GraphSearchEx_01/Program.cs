@@ -4,6 +4,9 @@ namespace GraphSearchEx_01
 {
     class Program
     {
+        // <문제> 음료수 얼려 먹기
+        // DFS & BFS 42:45
+        // 틀렸음
         public static int N, M;
         public static int[,] graph = new int[1000, 1000];
 
@@ -13,7 +16,7 @@ namespace GraphSearchEx_01
                 return false;
 
             // 해당 노드를 방문하지 않았다면
-            if (graph[x,y] == 0)
+            if (graph[x, y] == 0)
             {
                 // 해당 노드 방문 처리
                 graph[x, y] = 1;
@@ -39,7 +42,7 @@ namespace GraphSearchEx_01
             for (int i = 0; i < N; i++)
             {
                 char[] inputArray = Console.ReadLine().ToCharArray();
-                for (int j = 0; j < M; j++) 
+                for (int j = 0; j < M; j++)
                     graph[i, j] = inputArray[j] - '0';
             }
 

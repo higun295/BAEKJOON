@@ -25,6 +25,8 @@ namespace GraphSearchEx_02
     }
     class Program
     {
+        // <문제> 미로 탈출
+        // DFS & BFS 51:16
         public static int N, M;
         public static int[,] graph = new int[200, 200];
 
@@ -50,10 +52,10 @@ namespace GraphSearchEx_02
                     int ny = y + dy[i];
 
                     // 미로 찾기 공간을 벗어난 경우 무시
-                    if (nx < 0 || nx >= N || ny < 0 || ny >= M) 
+                    if (nx < 0 || nx >= N || ny < 0 || ny >= M)
                         continue;
                     // 벽인 경우 무시
-                    if (graph[nx, ny] == 0) 
+                    if (graph[nx, ny] == 0)
                         continue;
                     // 해당 노드를 처음 방문하는 경우에만 최단 거리 기록
                     if (graph[nx, ny] == 1)
@@ -82,7 +84,7 @@ namespace GraphSearchEx_02
                 char[] mapInput = Console.ReadLine().ToCharArray();
                 for (int j = 0; j < M; j++)
                 {
-                    graph[i, j] = mapInput[j] -'0';
+                    graph[i, j] = mapInput[j] - '0';
                 }
             }
 
