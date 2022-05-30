@@ -1,0 +1,15 @@
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\bin\Debug\net5.0\DynamicProgrammingEx_06.exe
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\bin\Debug\net5.0\DynamicProgrammingEx_06.deps.json
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\bin\Debug\net5.0\DynamicProgrammingEx_06.runtimeconfig.json
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\bin\Debug\net5.0\DynamicProgrammingEx_06.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\bin\Debug\net5.0\DynamicProgrammingEx_06.dll
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\bin\Debug\net5.0\ref\DynamicProgrammingEx_06.dll
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\bin\Debug\net5.0\DynamicProgrammingEx_06.pdb
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\DynamicProgrammingEx_06.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\DynamicProgrammingEx_06.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\DynamicProgrammingEx_06.AssemblyInfo.cs
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\DynamicProgrammingEx_06.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\DynamicProgrammingEx_06.dll
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\ref\DynamicProgrammingEx_06.dll
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\DynamicProgrammingEx_06.pdb
+E:\Projects\BAEKJOON\DynamicProgrammingEx_06\obj\Debug\net5.0\DynamicProgrammingEx_06.genruntimeconfig.cache
