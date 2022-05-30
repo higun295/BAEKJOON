@@ -4,6 +4,8 @@ namespace SortingEx_03
 {
     class Program
     {
+        // 퀵정렬
+        // 정렬 알고리즘 23:30
         static void QuickSort (int[] array, int start, int end)
         {
             if (start >= end) // 원소가 1개인 경우에는 종료
@@ -13,12 +15,16 @@ namespace SortingEx_03
             int left = start + 1;
             int right = end;
 
+            // 엇갈릴 때까지 계속 반복하는 것
             while (left <= right)
             {
                 // 왼쪽 : 피벗보다 큰 데이터를 찾을 때까지 반복
-                while (left <= end && array[left] <= array[pivot]) left++;
+                while (left <= end && array[left] <= array[pivot])
+                    left++;
+
                 // 오른쪽 : 피벗보다 작은 데이터를 찾을 때까지 반복
-                while(right > start && array[right] >= array[pivot]) right--;
+                while (right > start && array[right] >= array[pivot])
+                    right--;
 
                 // 엇갈렸으면 작은 데이터와 피벗을 교체
                 if (left > right)
