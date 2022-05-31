@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\2022\bin\Debug\net5.0\2022.exe
+E:\Projects\BAEKJOON\2022\bin\Debug\net5.0\2022.deps.json
+E:\Projects\BAEKJOON\2022\bin\Debug\net5.0\2022.runtimeconfig.json
+E:\Projects\BAEKJOON\2022\bin\Debug\net5.0\2022.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\2022\bin\Debug\net5.0\2022.dll
+E:\Projects\BAEKJOON\2022\bin\Debug\net5.0\ref\2022.dll
+E:\Projects\BAEKJOON\2022\bin\Debug\net5.0\2022.pdb
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.AssemblyInfo.cs
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.dll
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\ref\2022.dll
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.pdb
+E:\Projects\BAEKJOON\2022\obj\Debug\net5.0\2022.genruntimeconfig.cache

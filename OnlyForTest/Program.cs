@@ -9,43 +9,43 @@ namespace OnlyForTest
     {
         static void Main (string[] args)
         {
-            // 선택정렬과 기본 linq의 sort 시간 비교
-            int[] array = new int[1000000];
-            for (int i = 0; i < array.Length; i++)
-            {
-                Random rnd = new Random();
-                array[i] = rnd.Next(1, 1000000);
-            }
+            //// 선택정렬과 기본 linq의 sort 시간 비교
+            //int[] array = new int[1000000];
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    Random rnd = new Random();
+            //    array[i] = rnd.Next(1, 1000000);
+            //}
 
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
+            //Stopwatch sw = new Stopwatch();
+            //sw.Start();
 
-            // 선택정렬
-            int[] testArray1 = array;
-            for (int i = 0; i < testArray1.Length; i++)
-            {
-                int minIndex = i;
-                for (int j = i + 1; j < testArray1.Length; j++)
-                {
-                    if (testArray1[minIndex] > array[j])
-                        minIndex = j;
-                }
+            //// 선택정렬
+            //int[] testArray1 = array;
+            //for (int i = 0; i < testArray1.Length; i++)
+            //{
+            //    int minIndex = i;
+            //    for (int j = i + 1; j < testArray1.Length; j++)
+            //    {
+            //        if (testArray1[minIndex] > array[j])
+            //            minIndex = j;
+            //    }
 
-                int temp = testArray1[minIndex];
-                testArray1[minIndex] = testArray1[i];
-                testArray1[i] = temp;
-            }
+            //    int temp = testArray1[minIndex];
+            //    testArray1[minIndex] = testArray1[i];
+            //    testArray1[i] = temp;
+            //}
 
-            sw.Stop();
-            Console.WriteLine($"{sw.ElapsedMilliseconds}ms");
-            sw.Reset();
+            //sw.Stop();
+            //Console.WriteLine($"{sw.ElapsedMilliseconds}ms");
+            //sw.Reset();
 
 
-            sw.Start();
-            // 기본 Sort
-            int[] testArray2 = array.OrderBy(x => x).ToArray();
-            sw.Stop();
-            Console.WriteLine($"{sw.ElapsedMilliseconds}ms");
+            //sw.Start();
+            //// 기본 Sort
+            //int[] testArray2 = array.OrderBy(x => x).ToArray();
+            //sw.Stop();
+            //Console.WriteLine($"{sw.ElapsedMilliseconds}ms");
 
             // 재귀함수
             //Function(1);

@@ -13,3 +13,4 @@ E:\Projects\BAEKJOON\10814\obj\Debug\net5.0\10814.dll
 E:\Projects\BAEKJOON\10814\obj\Debug\net5.0\ref\10814.dll
 E:\Projects\BAEKJOON\10814\obj\Debug\net5.0\10814.pdb
 E:\Projects\BAEKJOON\10814\obj\Debug\net5.0\10814.genruntimeconfig.cache
+E:\Projects\BAEKJOON\10814\obj\Debug\net5.0\10814.csproj.AssemblyReference.cache

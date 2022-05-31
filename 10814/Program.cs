@@ -1,52 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace _10814
 {
     class Program
     {
-        public class Register : IComparable
+        class Member
         {
-            public static int Indexer;
-
-            public int Index;
-            public int Age;
-            public string Name;
-
-            public Register (string name, int age)
-            {
-                Age = age;
-                Name = name;
-                Index = Register.Indexer++;
-            }
-
-            public int CompareTo (object obj)
-            {
-                Register other = obj as Register;
-                if (Age == other.Age)
-                    return Index.CompareTo(other.Index);
-
-                return Age.CompareTo(other.Age);
-            }
+            public int Index { get; set; }
+            public int Age { get; set; }
+            public string Name { get; set; }
         }
+
         static void Main (string[] args)
         {
-            int count = int.Parse(Console.ReadLine());
-            Register.Indexer = 0;
-            var RegisterList = new List<Register>();
+            int N = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < count; i++)
+            int index = 0;
+            Member[] members = new Member[N];
+            for (int i = 0; i < N; i++)
             {
-                string[] strRegister = Console.ReadLine().Split(' ');
-                RegisterList.Add(new Register(strRegister[1], int.Parse(strRegister[0])));
+                string[] input = Console.ReadLine().Split(' ');
+                Member member = new Member
+                {
+                    Index = index++,
+                    Age = int.Parse(input[0]),
+                    Name = input[1]
+                };
+
+                members[i] = member;
             }
 
-            RegisterList.Sort();
-
-            foreach (var r in RegisterList)
+            var newList = members.OrderBy(x => x.Age).ThenBy(x => x.Index);
+            foreach (var member in newList)
             {
-                Console.WriteLine($"{r.Age} {r.Name}");
+                Console.WriteLine($"{member.Age} {member.Name}");
             }
         }
     }
