@@ -4,56 +4,58 @@ namespace DynamicProgrammingEx_07
 {
     class Program
     {
+        // <문제> 금광
+        // 다이나믹 프로그래밍 52:32
         static void Main (string[] args)
         {
-            // 테스트 케이스의 값을 받는다.
-            int T = Convert.ToInt32(Console.ReadLine());
+            int T = int.Parse(Console.ReadLine()); // 테스트 케이스 T
 
-            for (int tc = 0; tc < T; tc++)
+            for (int test = 0; test < T; test++) // 테스트케이스 T만큼 반복
             {
-                // 금광의 행과 열에 관한 사용자 입력 데이터
                 string[] input = Console.ReadLine().Split(' ');
+                int N = int.Parse(input[0]); // 금광 행 크기 N
+                int M = int.Parse(input[1]); // 금광 열 크기 M
 
-                int N = Convert.ToInt32(input[0]); // N 행
-                int M = Convert.ToInt32(input[1]); // M 열
-
-                // 금광의 금 매장량에 대한 사용자 입력 데이터
+                int[,] array = new int[N, M]; // N * M 크기의 금광 
                 string[] input2 = Console.ReadLine().Split(' ');
-
-                // 금광 관련된 2차원 배열 초기화
-                int[,] mine = new int[N, M];
-                for (int j = 0; j < N; j++)
+                for (int i = 0; i < N; i++)
                 {
-                    for (int k = 0; k < M; k++)
+                    for (int j = 0; j < M; j++)
                     {
-                        mine[j, k] = Convert.ToInt32(input2[M * j + k]);
+                        array[i, j] = int.Parse(input2[M * i + j]);
                     }
                 }
 
-                // Dynamic Programming 진행
+                // Dynamic Programming 진행(BottomUp 방식)
                 for (int j = 0; j < M; j++)
                 {
                     for (int i = 0; i < N; i++)
                     {
-                        int leftUp, leftDown, left = 0;
+                        int leftUp = 0;
+                        int left = 0;
+                        int leftDown = 0;
 
                         // 왼쪽 위에서 오는 경우
-                        if (i == 0) leftUp = 0;
-                        else leftUp = mine[i - 1, j - 1];
-                        // 왼쪽 아래에서 오는 경우
-                        if (i == N - 1) leftDown = 0;
-                        else leftDown = mine[i + 1, j - 1];
-                        // 왼쪽에서 오는 경우
-                        left = mine[i, j - 1];
+                        if (i == 0) leftUp = 0; // 범위를 벗어나는 경우 제외
+                        else
+                            leftUp = array[i - 1, j - 1];
 
-                        mine[i, j] = mine[i, j] + Math.Max(leftUp, Math.Max(leftDown, left));
+                        // 왼쪽 아래에서 오는 경우
+                        if (i == N - 1) leftDown = 0; // 범위를 벗어나는 경우 제외
+                        else
+                            leftDown = array[i + 1, j - 1];
+
+                        // 왼쪽에서 오는 경우
+                        left = array[i, j - 1];
+
+                        array[i, j] += Math.Max(leftUp, Math.Max(leftDown, left));
                     }
                 }
 
-                int result = 0;
+                int result = 0; // 채굴할 수 있는 금의 최대 크기
                 for (int i = 0; i < N; i++)
                 {
-                    result = Math.Max(result, mine[i, M - 1]);
+                    result = Math.Max(result, array[i, M - 1]);
                 }
 
                 Console.WriteLine(result);

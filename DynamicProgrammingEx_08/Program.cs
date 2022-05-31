@@ -5,6 +5,8 @@ namespace DynamicProgrammingEx_08
 {
     class Program
     {
+        // <문제> 병사 배치하기
+        // 다이나믹 프로그래밍 59:51
         static void Main (string[] args)
         {
             int N = Convert.ToInt32(Console.ReadLine()); // 병사의 수 N
