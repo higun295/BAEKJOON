@@ -1,33 +1,28 @@
 ﻿using System;
-using System.Linq;
 
 namespace DynamicProgrammingEx_04
 {
     class Program
     {
-        // 개미 전사 문제 풀기
+        // <문제> 개미 전사
+        // 다이나믹 프로그래밍 26:49
         static void Main (string[] args)
         {
-            int N = Convert.ToInt32(Console.ReadLine()); // 식량 창고의 개수 N
+            int N = int.Parse(Console.ReadLine()); // 식량 창고의 개수 N
 
+            int[] array = new int[N]; // 식량창고에 저장된 식량의 개수를 저장하는 배열
             string[] input = Console.ReadLine().Split(' ');
-            int[] warehouses = new int[N];
-
-            // 각 식량창고에 저장된 식량의 개수 K를 배열에 저장
             for (int i = 0; i < N; i++)
             {
-                warehouses[i] = Convert.ToInt32(input[i]);
+                array[i] = int.Parse(input[i]);
             }
 
-            int[] d = new int[100];
+            int[] d = new int[100]; // index : 0부터 99까지
+            d[0] = array[0];
+            d[1] = Math.Max(array[0], array[1]);
 
-            d[0] = warehouses[0];
-            d[1] = Math.Max(warehouses[0], warehouses[1]);
-
-            for (int i = 2; i < warehouses.Length; i++)
-            {
-                d[i] = Math.Max(d[i - 1], d[i - 2] + warehouses[i]);
-            }
+            for (int i = 2; i < N; i++)
+                d[i] = Math.Max(d[i - 1], d[i - 2] + array[i]);
 
             Console.WriteLine(d[N - 1]);
         }

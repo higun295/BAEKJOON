@@ -1,25 +1,20 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace DynamicProgrammingEx_01
 {
     class Program
     {
-        // 피보나치 수열 구현하기
+        // 피보나치 수열 구현하기(단순 재귀함수 구현)
+        // 다이나믹 프로그래밍 6:59
         static void Main (string[] args)
         {
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-
             int result = FibonacciSequence(40);
-
-            sw.Stop();
             Console.WriteLine(result);
-            Console.WriteLine($"{sw.ElapsedMilliseconds}ms");
         }
 
         static int FibonacciSequence (int x)
         {
+            // 종료 조건 명시(매우 중요!!!)
             if (x == 1 || x == 2)
                 return 1;
 

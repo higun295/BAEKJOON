@@ -1,27 +1,17 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace DynamicProgrammingEx_02
 {
     class Program
     {
-        public static long[] d = new long[200];
+        public static long[] d = new long[100];
 
-        // 피보나치 수열 구현하기
-        // 동적계획법 사용(DynamicProgramming)
+        // 피보나치 수열 구현하기(TopDown, 메모이제이션)
+        // 다이나믹 프로그래밍 15:33
         static void Main (string[] args)
         {
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-
-            // 피보나치 함수를 재귀함수로 구현(TopDown Dynamic Programming)
-            int[] d = new int[99];
-
-            long result = FibonacciSequence(100);
+            long result = FibonacciSequence(50);
             Console.WriteLine(result);
-
-            sw.Stop();
-            Console.WriteLine($"{sw.ElapsedMilliseconds}ms");
         }
 
         static long FibonacciSequence (int x)
@@ -34,6 +24,7 @@ namespace DynamicProgrammingEx_02
             if (d[x] != 0)
                 return d[x];
 
+            // 아직 계산하지 않은 문제라면 점화식에 따라서 피보나치 결과 반환
             d[x] = FibonacciSequence(x - 1) + FibonacciSequence(x - 2);
             return d[x];
         }

@@ -13,3 +13,4 @@ E:\Projects\BAEKJOON\DynamicProgrammingEx_02\obj\Debug\net5.0\DynamicProgramming
 E:\Projects\BAEKJOON\DynamicProgrammingEx_02\obj\Debug\net5.0\ref\DynamicProgrammingEx_02.dll
 E:\Projects\BAEKJOON\DynamicProgrammingEx_02\obj\Debug\net5.0\DynamicProgrammingEx_02.pdb
 E:\Projects\BAEKJOON\DynamicProgrammingEx_02\obj\Debug\net5.0\DynamicProgrammingEx_02.genruntimeconfig.cache
+E:\Projects\BAEKJOON\DynamicProgrammingEx_02\obj\Debug\net5.0\DynamicProgrammingEx_02.csproj.AssemblyReference.cache
