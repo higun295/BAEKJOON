@@ -1,0 +1,15 @@
+E:\Projects\BAEKJOON\EratosthenesEx_01\bin\Debug\net5.0\EratosthenesEx_01.exe
+E:\Projects\BAEKJOON\EratosthenesEx_01\bin\Debug\net5.0\EratosthenesEx_01.deps.json
+E:\Projects\BAEKJOON\EratosthenesEx_01\bin\Debug\net5.0\EratosthenesEx_01.runtimeconfig.json
+E:\Projects\BAEKJOON\EratosthenesEx_01\bin\Debug\net5.0\EratosthenesEx_01.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\EratosthenesEx_01\bin\Debug\net5.0\EratosthenesEx_01.dll
+E:\Projects\BAEKJOON\EratosthenesEx_01\bin\Debug\net5.0\ref\EratosthenesEx_01.dll
+E:\Projects\BAEKJOON\EratosthenesEx_01\bin\Debug\net5.0\EratosthenesEx_01.pdb
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.AssemblyInfo.cs
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.dll
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\ref\EratosthenesEx_01.dll
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.pdb
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.genruntimeconfig.cache
