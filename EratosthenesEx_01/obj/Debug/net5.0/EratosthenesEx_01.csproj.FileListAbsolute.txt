@@ -13,3 +13,4 @@ E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.dll
 E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\ref\EratosthenesEx_01.dll
 E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.pdb
 E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.genruntimeconfig.cache
+E:\Projects\BAEKJOON\EratosthenesEx_01\obj\Debug\net5.0\EratosthenesEx_01.csproj.AssemblyReference.cache

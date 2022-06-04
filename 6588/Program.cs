@@ -10,16 +10,18 @@ namespace _6588
         {
             var max = 1000000;
             bool[] isPrimes = new bool[max + 1];
-            isPrimes[0] = true;
-            isPrimes[1] = true;
 
-            for (int i = 2; i <= max; i++)
+            Array.Fill(isPrimes, true);
+            for (int i = 2; i < Math.Sqrt(max); i++)
             {
-                if (isPrimes[i])
-                    continue;
-                for (int j = i + i; j <= max; j += i)
+                if (isPrimes[i] == true)
                 {
-                    isPrimes[j] = true;
+                    int j = 2;
+                    while (i * j <= max)
+                    {
+                        isPrimes[i * j] = false;
+                        j++;
+                    }
                 }
             }
 
@@ -34,7 +36,8 @@ namespace _6588
                 bool isProve = false;
                 for (int i = 2; i <= N / 2; i++)
                 {
-                    if (isPrimes[i] == false && isPrimes[N - i] == false)
+                    if (isPrimes[i] == true &&
+                        isPrimes[N - i] == true)
                     {
                         sb.AppendLine($"{N} = {i} + {N - i}");
                         isProve = true;
