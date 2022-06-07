@@ -1,0 +1,15 @@
+E:\Projects\BAEKJOON\10871\bin\Debug\net5.0\10871.exe
+E:\Projects\BAEKJOON\10871\bin\Debug\net5.0\10871.deps.json
+E:\Projects\BAEKJOON\10871\bin\Debug\net5.0\10871.runtimeconfig.json
+E:\Projects\BAEKJOON\10871\bin\Debug\net5.0\10871.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\10871\bin\Debug\net5.0\10871.dll
+E:\Projects\BAEKJOON\10871\bin\Debug\net5.0\ref\10871.dll
+E:\Projects\BAEKJOON\10871\bin\Debug\net5.0\10871.pdb
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\10871.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\10871.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\10871.AssemblyInfo.cs
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\10871.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\10871.dll
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\ref\10871.dll
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\10871.pdb
+E:\Projects\BAEKJOON\10871\obj\Debug\net5.0\10871.genruntimeconfig.cache
