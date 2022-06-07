@@ -12,18 +12,17 @@ namespace _15552
             StreamWriter sw = new StreamWriter(new BufferedStream(Console.OpenStandardOutput()));
             StringBuilder sb = new StringBuilder();
 
-            int T = int.Parse(Console.ReadLine());
+            int T = int.Parse(sr.ReadLine());
 
             for (int i = 0; i < T; i++)
             {
                 string[] input = sr.ReadLine().Split(' ');
                 int A = int.Parse(input[0]);
                 int B = int.Parse(input[1]);
-
                 sb.Append(A + B).Append("\n");
             }
 
-            sw.WriteLine(sb);
+            sw.Write(sb);
             sr.Close();
             sw.Close();
         }
