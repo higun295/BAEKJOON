@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace _15649
+namespace _15650
 {
     class Program
     {
@@ -19,7 +19,7 @@ namespace _15649
             M = int.Parse(input[1]);
 
             isUsed = new bool[N + 1];
-            array = new int[M + 1];
+            array = new int[M];
 
             Recursion(0);
             sw.Close();
@@ -43,7 +43,9 @@ namespace _15649
                     isUsed[i] = true;
                     array[index] = i;
                     Recursion(index + 1);
-                    isUsed[i] = false;
+
+                    for (int j = i + 1; j <= N; j++)
+                        isUsed[j] = false;
                 }
             }
         }

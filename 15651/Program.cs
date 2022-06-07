@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace _15649
+namespace _15651
 {
     class Program
     {
@@ -38,13 +38,10 @@ namespace _15649
 
             for (int i = 1; i <= N; i++)
             {
-                if (isUsed[i] == false)
-                {
-                    isUsed[i] = true;
-                    array[index] = i;
-                    Recursion(index + 1);
-                    isUsed[i] = false;
-                }
+                isUsed[i] = true;
+                array[index] = i;
+                Recursion(index + 1);
+                isUsed[i] = false;
             }
         }
     }
