@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\BarkingDog_0x02\bin\Debug\net5.0\BarkingDog_0x02.exe
+E:\Projects\BAEKJOON\BarkingDog_0x02\bin\Debug\net5.0\BarkingDog_0x02.deps.json
+E:\Projects\BAEKJOON\BarkingDog_0x02\bin\Debug\net5.0\BarkingDog_0x02.runtimeconfig.json
+E:\Projects\BAEKJOON\BarkingDog_0x02\bin\Debug\net5.0\BarkingDog_0x02.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\BarkingDog_0x02\bin\Debug\net5.0\BarkingDog_0x02.dll
+E:\Projects\BAEKJOON\BarkingDog_0x02\bin\Debug\net5.0\ref\BarkingDog_0x02.dll
+E:\Projects\BAEKJOON\BarkingDog_0x02\bin\Debug\net5.0\BarkingDog_0x02.pdb
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.AssemblyInfo.cs
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.dll
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\ref\BarkingDog_0x02.dll
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.pdb
+E:\Projects\BAEKJOON\BarkingDog_0x02\obj\Debug\net5.0\BarkingDog_0x02.genruntimeconfig.cache
