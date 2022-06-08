@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\1021\bin\Debug\net5.0\1021.exe
+E:\Projects\BAEKJOON\1021\bin\Debug\net5.0\1021.deps.json
+E:\Projects\BAEKJOON\1021\bin\Debug\net5.0\1021.runtimeconfig.json
+E:\Projects\BAEKJOON\1021\bin\Debug\net5.0\1021.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\1021\bin\Debug\net5.0\1021.dll
+E:\Projects\BAEKJOON\1021\bin\Debug\net5.0\ref\1021.dll
+E:\Projects\BAEKJOON\1021\bin\Debug\net5.0\1021.pdb
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.AssemblyInfo.cs
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.dll
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\ref\1021.dll
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.pdb
+E:\Projects\BAEKJOON\1021\obj\Debug\net5.0\1021.genruntimeconfig.cache
