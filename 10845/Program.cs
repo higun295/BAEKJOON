@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace _10845
@@ -9,38 +7,66 @@ namespace _10845
     {
         static void Main (string[] args)
         {
-            int N = Convert.ToInt32(Console.ReadLine());
-            Queue<int> queue = new Queue<int>();
+            int[] array = new int[10001];
+            int N = int.Parse(Console.ReadLine());
+            StringBuilder sb = new StringBuilder();
 
+            int head = 0;
+            int tail = 0;
             for (int i = 0; i < N; i++)
             {
-                StringBuilder sb = new StringBuilder();
                 string[] input = Console.ReadLine().Split(' ');
-
-                switch (input[0])
+                if (input[0] == "push")
                 {
-                    case "push":
-                        queue.Enqueue(Convert.ToInt32(input[1]));
-                        continue;
-                    case "pop":
-                        sb.AppendLine(queue.Count == 0 ? "-1" : queue.Dequeue().ToString());
-                        break;
-                    case "size":
-                        sb.AppendLine(queue.Count.ToString());
-                        break;
-                    case "empty":
-                        sb.AppendLine(queue.Count == 0 ? "1" : "0");
-                        break;
-                    case "front":
-                        sb.AppendLine(queue.Count == 0 ? "-1" : queue.Peek().ToString());
-                        break;
-                    case "back":
-                        sb.AppendLine(queue.Count == 0 ? "-1" : queue.Last().ToString());
-                        break;
+                    array[tail] = int.Parse(input[1]);
+                    tail++;
                 }
 
-                Console.Write(sb.ToString());
+                else if (input[0] == "pop")
+                {
+                    if (head == tail)
+                    {
+                        sb.AppendLine("-1");
+                        continue;
+                    }
+
+                    sb.AppendLine(array[head].ToString());
+                    head++;
+                }
+
+                else if (input[0] == "size")
+                    sb.AppendLine((tail - head).ToString());
+
+                else if (input[0] == "empty")
+                {
+                    if (head == tail)
+                        sb.AppendLine("1");
+                    else
+                        sb.AppendLine("0");
+                }
+                else if (input[0] == "front")
+                {
+                    if (head == tail)
+                    {
+                        sb.AppendLine("-1");
+                        continue;
+                    }
+
+                    sb.AppendLine(array[head].ToString());
+                }
+                else
+                {
+                    if (head == tail)
+                    {
+                        sb.AppendLine("-1");
+                        continue;
+                    }
+
+                    sb.AppendLine(array[tail - 1].ToString());
+                }
             }
+
+            Console.Write(sb);
         }
     }
 }

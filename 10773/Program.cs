@@ -1,102 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace _10773
 {
-    public class Program
+    class Program
     {
-        static void Main(string[] args)
+        static void Main (string[] args)
         {
+            int[] array = new int[100001];
+            int pos = 0;
 
+            int result = 0;
+            int K = int.Parse(Console.ReadLine());
+            for (int i = 0; i < K; i++)
+            {
+                int input = int.Parse(Console.ReadLine());
+
+                if (input == 0)
+                {
+                    result -= array[pos - 1];
+                    pos--;
+                    continue;
+                }
+
+                array[pos] = input;
+                result += input;
+                pos++;
+            }
+
+            Console.Write(result);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //    static void Main (string[] args)
-        //    {
-        //        int count = 0;
-        //        int.TryParse(Console.ReadLine(), out count);
-
-        //        if (count == 0)
-        //            return;
-
-        //        List<int> inputList = new List<int>();
-        //        int sum = 0;
-
-        //        for (int i = 0; i < count; i++)
-        //        {
-        //            int input = 0;
-        //            int.TryParse(Console.ReadLine(), out input);
-
-        //            if (input == 0)
-        //            {
-        //                if (inputList.Count == 0)
-        //                    return;
-
-        //                int deletedItem = inputList[inputList.Count - 1];
-        //                sum -= deletedItem;
-        //                inputList.RemoveAt(inputList.Count - 1);
-        //            }
-        //            else
-        //            {
-        //                inputList.Add(input);
-        //                sum += input;
-        //            }
-        //        }
-
-        //        Console.WriteLine(sum);
-        //    }
     }
 }
