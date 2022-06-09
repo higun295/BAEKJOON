@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\3986\bin\Debug\net5.0\3986.exe
+E:\Projects\BAEKJOON\3986\bin\Debug\net5.0\3986.deps.json
+E:\Projects\BAEKJOON\3986\bin\Debug\net5.0\3986.runtimeconfig.json
+E:\Projects\BAEKJOON\3986\bin\Debug\net5.0\3986.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\3986\bin\Debug\net5.0\3986.dll
+E:\Projects\BAEKJOON\3986\bin\Debug\net5.0\ref\3986.dll
+E:\Projects\BAEKJOON\3986\bin\Debug\net5.0\3986.pdb
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.AssemblyInfo.cs
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.dll
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\ref\3986.dll
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.pdb
+E:\Projects\BAEKJOON\3986\obj\Debug\net5.0\3986.genruntimeconfig.cache
