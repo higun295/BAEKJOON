@@ -7,25 +7,24 @@ namespace _9095
     {
         static void Main (string[] args)
         {
-            int N = int.Parse(Console.ReadLine());
+            int T = int.Parse(Console.ReadLine());
+            StringBuilder sb = new StringBuilder();
 
-            int[] d = new int[11];
+            int[] d = new int[20];
             d[1] = 1;
             d[2] = 2;
             d[3] = 4;
-            for (int i = 4; i < 11; i++)
+
+            for (int j = 4; j < 11; j++)
+                d[j] = d[j - 1] + d[j - 2] + d[j - 3];
+
+            for (int i = 0; i < T; i++)
             {
-                d[i] = d[i - 1] + d[i - 2] + d[i - 3];
+                int N = int.Parse(Console.ReadLine());
+                sb.AppendLine(d[N].ToString());
             }
 
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < N; i++)
-            {
-                int input = int.Parse(Console.ReadLine());
-                sb.AppendLine(d[input].ToString());
-            }
-
-            Console.WriteLine(sb);
+            Console.Write(sb);
         }
     }
 }

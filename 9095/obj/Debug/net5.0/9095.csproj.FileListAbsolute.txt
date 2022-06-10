@@ -13,3 +13,4 @@ E:\Projects\BAEKJOON\9095\obj\Debug\net5.0\9095.dll
 E:\Projects\BAEKJOON\9095\obj\Debug\net5.0\ref\9095.dll
 E:\Projects\BAEKJOON\9095\obj\Debug\net5.0\9095.pdb
 E:\Projects\BAEKJOON\9095\obj\Debug\net5.0\9095.genruntimeconfig.cache
+E:\Projects\BAEKJOON\9095\obj\Debug\net5.0\9095.csproj.AssemblyReference.cache
