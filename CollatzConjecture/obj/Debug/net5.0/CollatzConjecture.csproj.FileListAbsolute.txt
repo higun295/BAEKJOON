@@ -1,0 +1,16 @@
+E:\Projects\BAEKJOON\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.exe
+E:\Projects\BAEKJOON\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.deps.json
+E:\Projects\BAEKJOON\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.runtimeconfig.json
+E:\Projects\BAEKJOON\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.runtimeconfig.dev.json
+E:\Projects\BAEKJOON\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.dll
+E:\Projects\BAEKJOON\CollatzConjecture\bin\Debug\net5.0\CollatzConjecture.pdb
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.csproj.AssemblyReference.cache
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.AssemblyInfoInputs.cache
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.AssemblyInfo.cs
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.csproj.CoreCompileInputs.cache
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.dll
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\refint\CollatzConjecture.dll
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.pdb
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\CollatzConjecture.genruntimeconfig.cache
+E:\Projects\BAEKJOON\CollatzConjecture\obj\Debug\net5.0\ref\CollatzConjecture.dll
