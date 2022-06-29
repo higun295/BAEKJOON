@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32602.215
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2750", "2750\2750.csproj", "{482C2D57-F102-4603-A88B-D197385B4FC3}"
 EndProject
@@ -279,7 +279,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2525", "2525\2525.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10951", "10951\10951.csproj", "{60080263-34FF-4764-BF2C-84D7A12FE3AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollatzConjecture", "CollatzConjecture\CollatzConjecture.csproj", "{6D3A7BEF-74E2-4066-82E7-A4904F3BD42D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollatzConjecture", "CollatzConjecture\CollatzConjecture.csproj", "{6D3A7BEF-74E2-4066-82E7-A4904F3BD42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10818", "10818\10818.csproj", "{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -843,6 +845,10 @@ Global
 		{6D3A7BEF-74E2-4066-82E7-A4904F3BD42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3A7BEF-74E2-4066-82E7-A4904F3BD42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3A7BEF-74E2-4066-82E7-A4904F3BD42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
