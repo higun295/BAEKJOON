@@ -281,7 +281,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10951", "10951\10951.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollatzConjecture", "CollatzConjecture\CollatzConjecture.csproj", "{6D3A7BEF-74E2-4066-82E7-A4904F3BD42D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10818", "10818\10818.csproj", "{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10818", "10818\10818.csproj", "{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11654", "11654\11654.csproj", "{744195A9-F9ED-48C8-86F8-EC3D9196EE1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -849,6 +851,10 @@ Global
 		{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21161E72-2D7C-4E0E-AF55-BB74048BFAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744195A9-F9ED-48C8-86F8-EC3D9196EE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744195A9-F9ED-48C8-86F8-EC3D9196EE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744195A9-F9ED-48C8-86F8-EC3D9196EE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744195A9-F9ED-48C8-86F8-EC3D9196EE1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
